@@ -1,0 +1,28 @@
+.histogram__wrapper {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    grid-template-rows: 1fr 30px;
+    grid-column-gap: 20px;
+}
+
+.histogram__scale {
+    width: 60px;
+    height: 280px;
+    grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+    gap: 20px;
+}
+
+
+.histogram__columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    grid-area: 1 / 2 / 2 / 3;
+    column-gap: 11px;
+}

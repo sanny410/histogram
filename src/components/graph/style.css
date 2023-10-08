@@ -1,0 +1,20 @@
+.graph__scale {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 20px;
+    grid-area: 2 / 2 / 3 / 3;
+
+}
+
+.graph__col {
+    width: 16px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 17px;
+}

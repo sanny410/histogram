@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 995px;
+    min-height: 480px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 28px;
+}
+
+.histogram {
+    width: 100%;
+    min-height: 100%;
+    border-radius: 27px;
+    background: rgba(255, 0, 245, 0.05);
+}
