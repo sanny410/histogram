@@ -15,14 +15,13 @@ const Histogram: FunctionComponent<IProps> = ({data}) => {
         <div className="histogram__wrapper">
             <div className="histogram__scale">
                 <div>10000</div>
+                <div>7500</div>
                 <div>5000</div>
-                <div>2000</div>
-                <div>1000</div>
-                <div>500</div>
+                <div>2500</div>
                 <div>0</div>
             </div>
             <div className="histogram__columns">
-            {Object.keys(data).map((item, index) => (
+            {Object.keys(data).map((item) => (
                 <Column num={data[item]} key={item} />
             ))}
             </div>
